@@ -10,8 +10,8 @@ module.exports = {
       },
       colors: {
         'primary': '#00c52a',
-        'secondary': '#444444'
-
+        'secondary': '#444444',
+        'brand-dark': '#00A323',
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"]
@@ -19,5 +19,6 @@ module.exports = {
     },
   },
   plugins: [
+    require('@tailwindcss/forms'),
   ],
 }
